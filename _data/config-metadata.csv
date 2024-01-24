@@ -7,7 +7,7 @@ subject,Subjects,true
 location,Location
 latitude,Latitude
 longitude,Longitude
-weblink,Link to Restaurant Website
+weblink,Link to Restaurant Website,,true
 source,Source
 identifier,Source Identifier,,
 type,Type,
