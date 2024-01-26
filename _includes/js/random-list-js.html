@@ -1,0 +1,17 @@
+<script>
+function assignTeams() {
+    const names = ["Yijia Qi", "Aaliyah Davis", "Jesus Villalobos", "Alexandra Landy", "Luming Zhang", "Madison Cissell", "David Castro", "Diamond Alexander", "Sierra King ", "Mal Haselberger"]; // Example names
+    const teamEvan = [], teamDevin = [], teamOlivia = [];
+
+    while (names.length) {
+        teamEvan.push(names.splice(Math.floor(Math.random() * names.length), 1)[0]);
+        if (names.length) teamDevin.push(names.splice(Math.floor(Math.random() * names.length), 1)[0]);
+        if (names.length) teamOlivia.push(names.splice(Math.floor(Math.random() * names.length), 1)[0]);
+    }
+
+    document.getElementById("teamEvan").innerHTML = teamEvan.map(name => `<li>${name}</li>`).join("");
+    document.getElementById("teamDevin").innerHTML = teamDevin.map(name => `<li>${name}</li>`).join("");
+    document.getElementById("teamOlivia").innerHTML = teamOlivia.map(name => `<li>${name}</li>`).join("");
+}
+</script>
+

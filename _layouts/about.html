@@ -1,8 +1,21 @@
 ---
 layout: default
+custom-foot: js/random-list-js.html
 ---
 <div class="container my-4 about-contents">
 {{ content }}
+
+<button class="btn btn-lg btn-outline-success" onclick="assignTeams()">Create Teams!</button>
+
+
+<h2>Team Evan</h2>
+<ul id="teamEvan"></ul>
+
+<h2>Team Devin</h2>
+<ul id="teamDevin"></ul>
+
+<h2>Team Olivia</h2>
+<ul id="teamOlivia"></ul>
+
 </div>
 
-{% if page.credits == true %}{% include cb/credits.html %}{% endif %}
