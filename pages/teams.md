@@ -10,18 +10,18 @@ credits: true
 
 # Teams!!! 
 
-## Team Evan
+## Permanent Team Evan
 - Madison Cissell
 - Mal Haselberger
 - Sierra King
 - David Castro
 
-## Team Devin
+## Permanent Team Devin
 - Aaliyah Davis
 - Yijia Qi
 - Diamond Alexander
 
-## Team Olivia
+## Permanent Team Olivia
 - Alexandra Landy
 - Jesus Villalobos
 - Luming Zhang
